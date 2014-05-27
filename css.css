@@ -1,0 +1,20 @@
+@charset "utf-8";
+body {
+	background-image: url(bg.png);
+	background-repeat: repeat;
+	font-family: Consolas, "微软雅黑";
+}
+
+.tbbg {
+	background-image: url(tbbg.png);
+	background-repeat: repeat;
+}
+a {
+	color: #000;
+	text-decoration: none;
+	font-family: Consolas, "微软雅黑";
+}
+a:link {color: #000}		/* 未访问的链接 */
+a:visited {color: #000}	/* 已访问的链接 */
+a:hover {color: #F00}	/* 鼠标移动到链接上 */
+a:active {color: #00F}	/* 选定的链接 */
